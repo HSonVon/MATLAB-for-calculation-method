@@ -1,0 +1,10 @@
+%f = @(x) 3*x^3 - 8*x^2 - 20*x + 16;
+syms x;
+a =-1;
+b = 0;
+saiso =0.01;
+%[ngh,sll] = chiadoi(f,a,b,saiso);
+%[ngh, sll] = lap(f,a,b,saiso);
+%[ngh,sll] = tieptuyen(f,a,b,saiso);
+%[ngh,sll] = daycung(f,a,b,saiso);
+lagrange([0.98 1 1.02],[0.7739332	0.7651977	0.7563321]);
